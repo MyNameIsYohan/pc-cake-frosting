@@ -1,2 +1,1 @@
-# pc-cake-frosting
-Package for CI/CD cake frosting
+common components used in cake frosting projects 

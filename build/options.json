@@ -1,0 +1,17 @@
+{
+  "ApplicationName": "Overleaf.Cake.Frosting",
+  "ToolsFolder": "caketools",
+  "ArtifactsFolder": "artifacts",
+  "CoverageResult": "./dotcover/coverageResult.dcvr",
+  "CoverageReport": "./dotcover/coverageReport.html",
+  "PublishFolder": "publish",
+  "SolutionFile": "Overleaf.Cake.Frosting.sln",
+  "TestProjectPattern": "Tests",
+  "DotCoverFilters": [ "-:Tests", "-:build" ],
+  "SonarQubeProjectKey": "EUT_eu-tools-cake-frosting",
+
+  "AwsCodeArtifactsRepo": "bloxx",
+  "AwsCodeArtifactsDomainOwner": "380786374138",
+  "AwsCodeArtifactsDomain": "prod-automation-codeartifact",
+  "AwsRegion": "eu-central-1"
+}

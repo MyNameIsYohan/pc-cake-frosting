@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+		<metadata>
+				<id>Overleaf.Cake.Frosting</id>
+				<version>1.0.5</version>
+				<title>Parkmobile Cake Frosting</title>
+				<authors>Yohanes Chandra</authors>
+				<requireLicenseAcceptance>false</requireLicenseAcceptance>
+				<projectUrl>https://stash.parkmobile.com/projects/EUT/repos/eu-tools-cake-frosting/browse</projectUrl>
+				<description>Contains cake frosting script that is required for build of dotnet projects</description>
+				<releaseNotes>
+						* 0.1.0 - Initial version
+						* 0.2.0 - Support serverless deployment
+						* 0.2.1 - Support custom sonarqube project name by specifying var SonarQube.ProjectName
+						*         Update packages to the latest version
+						* 0.2.2 - Working version ParameterStoreUploader (tested in lambda projects) + update package
+						* 1.0.0 - Official version!
+						* 1.0.1 - Only bump the version number. It seems the main feed already have 1.0.0
+						* 1.0.2 - Fix publish config folder + refactor
+						* 1.0.3 - Only bump the version number.
+						* 1.0.4 - Add some config properties to support container deployment
+						* 1.0.5 - Update push to CA task. Only push to CA for releasable branches
+				</releaseNotes>
+				<copyright>Parkmobile 2021</copyright>
+				<tags>cakefrosting cake deploy</tags>
+				<dependencies>
+						<group targetFramework="netstandard2.1" />
+				</dependencies>
+		</metadata>
+</package>

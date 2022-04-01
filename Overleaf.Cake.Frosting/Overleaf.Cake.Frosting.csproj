@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+		<PropertyGroup>
+			    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+				<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+				<PackageReleaseNotes>
+						0.1.0 - Initial version
+						0.2.0 - Support serverless deployment
+						0.2.1 - Support custom sonarqube project name by specifying var SonarQube.ProjectName + Update packages to the latest version
+						1.0.0 - Official version!
+						1.0.1 - Only bump the version number. It seems the main feed already have 1.0.0
+						1.0.2 - Fix publish config folder + refactor
+					  1.0.3 - Only bump the version number.
+						1.0.4 - Add some config properties to support container deployment
+						1.0.5 - Update push to CA task. Only push to CA for releasable branches
+				</PackageReleaseNotes>
+				<RepositoryUrl>ssh://git@stash-ssh.parkmobile.com:7999/eut/eu-tools-cake-frosting.git</RepositoryUrl>
+				<RepositoryType>git</RepositoryType>
+				<PackageTags>cakefrosting cake deploy</PackageTags>
+				<PackageProjectUrl>https://stash.parkmobile.com/projects/EUT/repos/eu-tools-cake-frosting/browse</PackageProjectUrl>
+				<Copyright>Parkmobile 2021©</Copyright>
+				<Authors>Yohanes Chandra</Authors>
+				<Company>Parkmobile</Company>
+				<Product>Parkmobile Cake Frosting</Product>
+				<Description>Overleaf.Cake.Frosting</Description>
+				<IsPackable>true</IsPackable>
+		</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.CodeArtifact" Version="3.7.0.132" />
+    <PackageReference Include="Cake.Common" Version="2.1.0" />
+    <PackageReference Include="Cake.Core" Version="2.1.0" />
+    <PackageReference Include="Cake.Frosting" Version="2.1.0" />
+    <PackageReference Include="Cake.Git" Version="2.0.0" />
+    <PackageReference Include="Cake.Sonar" Version="1.1.30" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+  </ItemGroup>
+
+</Project>
